@@ -129,7 +129,7 @@ int set_is_equal(const Set *set1, const Set *set2) {
 }
 
 
-int set_is_member(Set *set, const void *data) {
+int set_is_member(const Set *set, const void *data) {
 
     ListElmt *member;
 
